@@ -1,0 +1,23 @@
+{
+  "author": "XBW <windworst@gmail.com>",
+  "name": "youtube-link-fetch",
+  "description": "Fetch Youtube page video links",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/ha-excited/youtube-link-fetch"
+  },
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "bin": {
+    "youtube-link-fetch": "./index.js"
+  },
+  "dependencies": {
+    "chrome-launcher": "^0.10.2",
+    "chrome-remote-interface": "^0.25.5",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2"
+  }
+}
