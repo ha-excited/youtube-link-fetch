@@ -53,11 +53,11 @@ async function loadUrl(client, url) {
 
 async function fetch(client, url) {
   let $ = htmlToJq(await loadUrl(client, url))
-  let links = []
-  $('ytd-thumbnail a').each( function () {
-    links.push('https://www.youtube.com' + $(this).attr('href'))
+  let links = new Set()
+  $('*[href^="/watch?"]').each( function () {
+    links.add('https://www.youtube.com' + $(this).attr('href'))
   })
-  return links
+  return [...links]
 }
 
 async function youLinkFetch(url, flags = []) {
