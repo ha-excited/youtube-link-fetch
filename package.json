@@ -2,7 +2,7 @@
   "author": "XBW <windworst@gmail.com>",
   "name": "youtube-link-fetch",
   "description": "Fetch Youtube page video links",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/ha-excited/youtube-link-fetch"
   },
