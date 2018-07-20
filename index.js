@@ -89,7 +89,7 @@ async function main() {
     console.error('   youtube-link-fetch <youtube-link> [chrome flags1] [chrome flags2]')
     console.error('   youtube-link-fetch https://www.youtube.com/')
     console.error('   youtube-link-fetch https://www.youtube.com/user/[foobar]/videos')
-    console.error('   youtube-link-fetch https://www.youtube.com/user/[foobar]/videos --proxy=socks5://localhost:1080')
+    console.error('   youtube-link-fetch https://www.youtube.com/user/[foobar]/videos --proxy-server=socks5://localhost:1080')
     return
   }
   console.error(`target: >> ${url} <<`)

@@ -10,7 +10,7 @@ usage:
    youtube-link-fetch <youtube-link> [chrome flags1] [chrome flags2]
    youtube-link-fetch https://www.youtube.com/
    youtube-link-fetch https://www.youtube.com/user/[foobar]/videos
-   youtube-link-fetch https://www.youtube.com/user/[foobar]/videos --proxy=socks5://localhost:1080
+   youtube-link-fetch https://www.youtube.com/user/[foobar]/videos --proxy-server=socks5://localhost:1080
 ```
 
 Output all video link to stdout
